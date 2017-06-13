@@ -19,8 +19,8 @@ describe('testing fp', () => {
     it('should return 10', () =>{
       expect(fp.reduce(nums, (a, c) => a + c)).toEqual(10);
     });
-    it('should return cat', () =>{
-      expect(fp.reduce(cat, (a, c) => a + c)).toEqual('cat');
+    it('should return CAT', () =>{
+      expect(fp.reduce(cat, (a, c) => a.toUpperCase() + c.toUpperCase())).toEqual('CAT');
     });
   });
   describe('testing fp.filter', ()=> {
