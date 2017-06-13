@@ -3,7 +3,6 @@
 db/
 build/
 
-### OSX ###
 .DS_Store
 .AppleDouble
 .LSOverride
