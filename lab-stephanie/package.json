@@ -1,11 +1,19 @@
 {
   "name": "lab-stephanie",
   "version": "1.0.0",
-  "description": "![cf](https://i.imgur.com/7v5ASc8.png) lab-02-tools-and-context ======",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "expect": "^1.20.2",
+    "mocha": "^3.4.2",
+    "npm": "^5.0.3"
+  }
 }
